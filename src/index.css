@@ -1,0 +1,174 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  text-decoration: none;
+}
+
+.navBar {
+  height: 3rem;
+  width: 100vw;
+  background-color: azure;
+}
+input {
+  position: relative;
+  top: 0.5rem;
+  left: 42vw;
+  height: 2rem;
+  width: 13rem;
+  padding-left: 10px;
+}
+.body {
+  height: auto;
+  width: 100vw;
+  padding: 2rem;
+}
+.body > h2 {
+  margin-bottom: 1rem;
+  color: blueviolet;
+}
+.movies {
+  display: flex;
+  background-color: antiquewhite;
+}
+.movieName img {
+  height: 15rem;
+  width: 15rem;
+  margin: 14px;
+  cursor: pointer;
+}
+.movieContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.movieName h4 {
+  text-align: center;
+  font-size: 700;
+  width: 15rem;
+  text-decoration: none;
+}
+.loaderClass, .errorMessage {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+.details {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background-color: antiquewhite;
+  margin: 2rem;
+  padding: 2rem;
+}
+.imgCont {
+  height: 23rem;
+  width: 23rem;
+  overflow: hidden; 
+}
+.textCont  {
+  width: 25rem;
+  /* line-height: 20px; */
+  overflow: hidden;
+  font-family: cursive;
+}
+.textCont h2 {
+  color: blueviolet;
+  margin-bottom: 1rem;
+  font-family: cursive;
+}
+
+.directedBy {
+  font-family: cursive;
+}
+.textCont p {
+  margin-top: 14px;
+  margin-bottom: 14px;
+  font-family: cursive;
+  overflow: hidden;
+}
+.buttons {
+  height: 2rem;
+  max-width: 10rem;
+  background-color: blueviolet;
+  color: white;
+  padding: 4px;
+  border: none;
+  outline: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.GoWatch {
+  margin-right: 1rem;
+  border: none;
+}
+.twoButtons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.headTitle {
+  color: brown;
+}
+.watchBtn {
+  outline: none;
+  border: none;
+}
+.watchMovie {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: beige;
+}
+.watchListContainer {
+  width: calc(100vw - 4rem);
+  display: flex;
+  justify-content: center;
+  background-color: rgb(248, 229, 205);
+  margin: 2rem;
+}
+.watchImg img {
+  height: 8rem;
+  width: 8rem;
+  object-fit: fill;
+}
+.removeButton {
+  text-align: center;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 100%;
+  padding-top: 1px;
+}
+.watchedMovieName {
+  font-size: 12px;
+}
+.ratingN-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.emptyWatchList {
+  height: 6rem;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.zeroSelected {
+  text-align: center;
+  color: blueviolet;
+  margin-top: 4rem;
+}
+.stats {
+  text-align: center;
+}
